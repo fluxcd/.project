@@ -1,0 +1,78 @@
+# .project metadata for Flux
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "flux"
+name: "Flux"
+description: "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit"
+type: "project"
+project_lead: "stefanprodan" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#flux"
+    link: "https://cloud-native.slack.com/messages/flux"
+    primary: true
+  - name: "#flux-contributors"
+  - name: "#flux-dev"
+  - name: "#flagger"
+
+maturity_log:
+  - phase: "graduated"
+    date: "2019-07-15T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/232" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/fluxcd/flux2"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://fluxcd.io/"
+
+artwork: "https://landscape.cncf.io/logos/flux.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/fluxcd/flux2/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "fluxcd/flux2"
+
+social:
+  twitter: "https://twitter.com/fluxcd"
+
+security:
+  policy:
+    path: "https://github.com/fluxcd/.github/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/fluxcd/flux2/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/fluxcd/flux2/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/fluxcd/flux2/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/fluxcd/flux2/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/fluxcd/flux2/blob/main/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Continuous Integration & Delivery"
+
+# CLOMonitor Score: 97/100
+# Documentation: 100 | License: 100 | Best Practices: 100 | Security: 88
