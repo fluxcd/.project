@@ -9,20 +9,15 @@ maintainers:
     teams:
       - name: "maintainers"
         members:
-          - stefanprodan
-          - squaremo
+          - relu
           - hiddeco
-          - makkes
-          - darkowlzz
-          - souleb
-          - pjbgf
-          - aryan9600
-          - kingdonb
-          - scottrigby
-          - mewzherder
-          - dipti-pai
           - stealthybox
           - matheuscscp
+          - makkes
+          - pjbgf
+          - aryan9600
+          - souleb
+          - stefanprodan
       # Unmanaged teams: teams with "managed: false" are tracked in this
       # file for documentation but are excluded from CNCF resource
       # provisioning (mailing lists, service desk, Copilot seats, etc).
