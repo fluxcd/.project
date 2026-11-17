@@ -31,7 +31,7 @@ repositories: # TODO: AUTO-DETECTED primary — please verify
 
 website: "https://fluxcd.io/"
 
-artwork: "https://landscape.cncf.io/logos/flux.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/flux"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
